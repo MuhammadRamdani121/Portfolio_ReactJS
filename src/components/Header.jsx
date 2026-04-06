@@ -38,7 +38,7 @@ export default function Header() {
       {/* 🔥 OVERLAY BLUR */}
       {open && (
         <div
-          className="fixed top-12 left-0 right-0 bottom-0 backdrop-blur-sm bg-black/30 z-30"
+          className="fixed top-12 left-0 right-0 bottom-0 backdrop-blur-sm bg-black/30 z-50"
           onClick={() => setOpen(false)}
         ></div>
       )}
