@@ -1,13 +1,15 @@
 import Header from "../components/Header";
 import HeroSection from "../components/HeroSection";
-import Navbar from "../components/Navbar";
+import Profile from "../components/Profile";
 
 export default function Home() {
   return (
     <>
       <Header />
-      <HeroSection />
-      <Navbar />
+      <main>
+        <HeroSection />
+        <Profile />
+      </main>
     </>
   );
 }
