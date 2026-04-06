@@ -13,7 +13,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="bg-red-200 text-xl fixed w-full z-50">
+    <header className="bg-[#EFE9E3] text-xl fixed w-full z-50">
       <div className="flex justify-between items-center px-6">
         <img className="w-12 h-12 rounded-full" src={fotoDiri} alt="foto" />
 
@@ -45,7 +45,7 @@ export default function Header() {
 
       {/* MOBILE MENU */}
       <nav
-        className={`md:hidden px-6 pb-4 fixed top-0 left-0 w-full bg-red-200 z-50 transition-all duration-300 ${
+        className={`md:hidden px-6 pb-4 fixed top-0 left-0 w-full bg-[#D9CFC7] z-50 transition-all duration-300 ${
           open ? "translate-y-12" : "-translate-y-full"
         }`}
       >
