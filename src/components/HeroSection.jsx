@@ -5,11 +5,11 @@ export default function HeroSection() {
   return (
     <>
       <section className="bg-[#F9F8F6] flex flex-col-reverse justify-evenly items-center md:flex-row px-6 gap-4 h-screen">
-        <article className=" md:w-1/2 flex flex-col justify-center items-center">
+        <article className=" md:w-1/2 flex flex-col justify-center items-center text-center">
           <h1 className="md:text-4xl text-lg font-bold">
             Halo, Saya Muhammad Ramdani
           </h1>
-          <p className="text-lg">
+          <p className="md:text-lg text-md">
             Saya Seorang Junior Web Developer & Fresh Graduate
           </p>
           <button className="border-2 w-30 rounded-lg hover:bg-black/60 bg-black text-white text-lg">

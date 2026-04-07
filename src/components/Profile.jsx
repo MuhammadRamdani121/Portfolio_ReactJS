@@ -2,9 +2,9 @@ import { IoMdDownload } from "react-icons/io";
 export default function Profile() {
   return (
     <>
-      <main className="h-1/2 px-6 bg-[#EFE9E3]">
-        <h1 className="text-3xl text-center">Tentang Saya</h1>
-        <section className="flex flex-col items-center w-full gap-2 md:flex-row pt-6">
+      <main className="h-1/2 px-6 bg-[#EFE9E3] ">
+        <h1 className="text-3xl text-center">Tentang Sayaa</h1>
+        <section className="flex flex-col items-center w-full gap-2 md:flex-row  pt-6">
           <article className="md:w-1/2 ">
             <h1 className="text-justify indent-4">
               Saya, Muhammad Ramdani adalah lulusan baru yang penuh semangat dan
@@ -16,7 +16,7 @@ export default function Profile() {
             </h1>
           </article>
 
-          <aside className="md:w-1/2 w-full rounded-lg bg-[#F9F8F6] md:mx-20 flex flex-col items-center justify-center px-10">
+          <aside className="md:w-1/2 h-full w-full mb-4 rounded-lg bg-[#F9F8F6] md:mx-20 flex flex-col items-center justify-center px-10 ">
             <h1 className="text-justify">Download CV/RESUME</h1>
             <button className="border-2 w-30 rounded-lg hover:bg-black/60 bg-black text-white text-lg">
               Lihat Project
