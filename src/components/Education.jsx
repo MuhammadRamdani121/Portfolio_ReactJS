@@ -3,7 +3,7 @@ export default function Education() {
     <>
       <main className="h-screen w-full">
         <h1 className="text-center text-2xl">Pendidikan</h1>
-        <article className="flex flex-col items-center h-auto ">
+        <article className="flex flex-col items-center h-auto text-center">
           <section className="flex justify-center h-full w-full relative ">
             <aside className="w-1/2 flex items-center justify-center border-r-2 pb-10">
               <img src="/KULIAH.png" alt="" />

@@ -5,7 +5,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <header className="flex justify-between item-center fixed w-full bg-amber-200">
+      <header className="flex justify-between item-center fixed z-50 w-full bg-amber-200">
         {/* logo */}
         <h1 className="text-4xl font-bold">adasssss</h1>
         {/* desktop menu */}
