@@ -1,3 +1,4 @@
+import Contact from "../components/Contact/Contact";
 import Education from "../components/Education";
 import Header from "../components/Header";
 import HeroSection from "../components/HeroSection";
@@ -15,6 +16,7 @@ export default function Home() {
         {/* <Education /> */}
         <PropsEducation />
         <PropsProject />
+        <Contact />
       </main>
     </>
   );

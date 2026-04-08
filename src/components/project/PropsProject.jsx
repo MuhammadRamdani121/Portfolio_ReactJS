@@ -3,7 +3,7 @@ export default function PropsProject() {
     <>
       <main>
         <h1 className="text-2xl text-center">Project</h1>
-        <section className="flex flex-col md:flex-row gap-4">
+        <section className="grid md:grid-cols-2 grid-cols-1 gap-4">
           <Project nama="Nama Project" tahun="2020-Sekarang" isi="isinya" />
           <Project nama="Nama Project" tahun="2020" isi="isinya" />
           <Project />
