@@ -4,7 +4,7 @@ export default function Footer() {
       <footer className="text-center pb-10 mt-20 bg-amber-400 px-6">
         <h1>Footer</h1>
         <section className="flex flex-row justify-around items-center">
-          <h1 className="w-1/4">Muhammad Ramdani</h1>
+          {/* <h1 className="w-1/4">Muhammad Ramdani</h1> */}
           <aside className="flex flex-col w-1/4 gap-2 justify-center items-center">
             <a
               href=""
@@ -31,7 +31,9 @@ export default function Footer() {
               Contact
             </a>
           </aside>
-          <article className="w-1/2">© 2026 All rights reserved.</article>
+          <article className="w-1/2">
+            © 2026 Muhammad Ramdani, All rights reserved.
+          </article>
         </section>
       </footer>
     </>
