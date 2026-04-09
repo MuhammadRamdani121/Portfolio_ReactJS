@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import fotoDiri from "../assets/Foto_Diri.jpg";
+import fotoDiri from "../../../assets/Foto_Diri.jpg";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -14,7 +14,7 @@ export default function Header() {
 
   return (
     <header className="bg-[#EFE9E3] text-xl fixed w-full z-50">
-      <div className="flex justify-between items-center px-6">
+      <div className="flex justify-between items-center my-1  px-6">
         <img className="w-12 h-12 rounded-full" src={fotoDiri} alt="foto" />
 
         {/* MENU DESKTOP */}
@@ -38,7 +38,7 @@ export default function Header() {
       {/* 🔥 OVERLAY BLUR */}
       {open && (
         <div
-          className="fixed top-12 left-0 right-0 bottom-0 backdrop-blur-sm bg-black/30 z-50"
+          className="fixed top-14 left-0 right-0 bottom-0 backdrop-blur-sm bg-black/30 z-50"
           onClick={() => setOpen(false)}
         ></div>
       )}
@@ -46,7 +46,7 @@ export default function Header() {
       {/* MOBILE MENU */}
       <nav
         className={`md:hidden px-6 pb-4 fixed top-0 left-0 w-full bg-[#D9CFC7] z-50 transition-all duration-300 ${
-          open ? "translate-y-12" : "-translate-y-full"
+          open ? "translate-y-14" : "-translate-y-full"
         }`}
       >
         <div className="flex flex-col gap-4 items-center">

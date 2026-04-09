@@ -19,7 +19,7 @@ export default function Contact() {
       .then(
         () => {
           alert("Pesan berhasil dikirim!");
-          form.current.reset(); // ✅ reset form
+          form.current.reset();
           setLoading(false);
         },
         (error) => {
@@ -31,13 +31,13 @@ export default function Contact() {
   };
 
   return (
-    <main className="mt-10">
+    <main className="mt-10 ">
       <h1 className="text-xl font-bold text-center">Hubungi Saya</h1>
-      <section className="flex justify-center items-center ">
+      <section className="flex justify-center items-center  ">
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="flex flex-col gap-3 w-full max-w-md p-5 shadow-lg rounded-xl"
+          className="flex flex-col gap-3 w-full max-w-xl md:max-w-3xl p-5 shadow-lg rounded-xl"
         >
           <input name="nama" placeholder="Nama" className="border p-2" />
           <input name="email" placeholder="Email" className="border p-2" />
