@@ -1,12 +1,13 @@
 export default function PropsProject() {
   return (
     <>
-      <main>
+      <main className="bg-[#D9CFC7] ">
         <h1 className="text-2xl text-center">Project</h1>
-        <section className="grid md:grid-cols-2 grid-cols-1 gap-4">
+        <section className="grid md:grid-cols-2 grid-cols-1 gap-4 pt-5 bg-[#F9F8F6] ">
           <Project nama="Nama Project" tahun="2020-Sekarang" isi="isinya" />
           <Project nama="Nama Project" tahun="2020" isi="isinya" />
-          <Project />
+          <Project nama="Nama Project" tahun="2020" isi="isinya" />
+          <Project nama="Nama Project" tahun="2020" isi="isinya" />
         </section>
       </main>
     </>
@@ -16,7 +17,7 @@ export default function PropsProject() {
 export function Project(props) {
   return (
     <>
-      <section className="relative border-2 mt-2 mx-6">
+      <section className="relative border-2 mt-2 mx-6 bg-[#EFE9E3]">
         <p className="absolute text-lg z-30 bg-red-400 -top-3.5 right-3 text-center w-auto px-4 rounded-lg">
           {props.tahun}
         </p>

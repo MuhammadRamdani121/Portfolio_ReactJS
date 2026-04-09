@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <footer className="text-center pb-10 mt-20 bg-amber-400 px-6">
+      <footer className="text-center pb-10 mt-20 bg-[#C9B59C] px-6">
         <h1>Footer</h1>
         <section className="flex flex-row justify-around items-center">
           {/* <h1 className="w-1/4">Muhammad Ramdani</h1> */}

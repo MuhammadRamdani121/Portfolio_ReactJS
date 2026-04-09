@@ -1,13 +1,8 @@
 import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  plugins: [tailwindcss()],
-  build: {
-    rollupOptions: {
-      input: {
-        index: "index.html",
-      },
-    },
-  },
+  plugins: [react(), tailwindcss()],
+  base: "/Portfolio_ReactJS/", // ⬅️ penting
 });
