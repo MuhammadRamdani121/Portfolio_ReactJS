@@ -1,3 +1,4 @@
+import ImgKuliah from "../../../assets/kuliah.png";
 export default function Education() {
   return (
     <>

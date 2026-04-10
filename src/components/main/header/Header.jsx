@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import fotoDiri from "../../../assets/Foto_Diri.jpg";
+import img from "../../../assets/foto_diri.jpg";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <header className="bg-[#EFE9E3] text-xl fixed w-full z-50">
       <div className="flex justify-between items-center my-1  px-6">
-        <img className="w-12 h-12 rounded-full" src={fotoDiri} alt="foto" />
+        <img className="w-12 h-12 rounded-full" src={img} alt="foto" />
 
         {/* MENU DESKTOP */}
         <nav className="hidden md:flex gap-6">

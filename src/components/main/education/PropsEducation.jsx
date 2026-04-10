@@ -1,3 +1,6 @@
+import ImgKuliah from "../../../assets/kuliah.png";
+import ImgSmk from "../../../assets/smk.png";
+import ImgSmp from "../../../assets/smp.png";
 export default function PropsEducation() {
   return (
     <>
@@ -8,20 +11,20 @@ export default function PropsEducation() {
             nama="Universitas Pamulang"
             studi="Program Studi Teknik Informatika"
             tahun="2020-2024"
-            img="/KULIAH.png"
+            img={ImgKuliah}
           />
           <HeaderEducation
             nama="SMK Letris Indonesia 2"
             studi="Rekayasa Perangkat Lunak (RPL)"
             tahun="2017-2020"
-            img="/SMK.png"
+            img={ImgSmk}
             reverse
           />
           <HeaderEducation
             nama="SMPI AT-Taqwa"
             studi="Pendidikan Menengah Pertama (SMP)"
             tahun="2014-2017"
-            img="/SMP.png"
+            img={ImgSmp}
           />
         </article>
       </main>

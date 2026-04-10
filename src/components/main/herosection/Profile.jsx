@@ -1,12 +1,15 @@
 import { IoMdDownload } from "react-icons/io";
+
 export default function Profile() {
   return (
     <>
       <main className="h-1/2 px-6 bg-[#EFE9E3] pb-12 ">
-        <h1 className="text-3xl text-center">Tentang Sayaa</h1>
+        <h1 className="text-lg md:text-2xl font-bold text-center">
+          TENTANG SAYA
+        </h1>
         <section className="flex flex-col items-center w-full gap-2 md:flex-row  pt-6">
           <article className="md:w-1/2 ">
-            <h1 className="text-justify indent-4">
+            <h1 className="text-justify text-sm md:text-lg indent-4">
               Saya, Muhammad Ramdani adalah lulusan baru yang penuh semangat dan
               siap untuk membawa energi positif ke dunia profesional. Dengan
               latar belakang pendidikan dalam teknik informatika, saya telah
@@ -16,21 +19,21 @@ export default function Profile() {
             </h1>
           </article>
 
-          <aside className="md:w-1/2 max-h-lg max-w-md mb-4 rounded-lg bg-[#F9F8F6] md:mx-20 flex flex-col items-center justify-center p-4 my-2">
-            <h1 className="text-justify">Download CV/RESUME</h1>
-            <button className="border-2 w-30 rounded-lg hover:bg-black/60 bg-black text-white text-lg">
+          <aside className="md:w-1/2 max-h-lg max-w-md mb-4 rounded-lg text-md md:text-lg  bg-[#F9F8F6] md:mx-20 flex flex-col items-center justify-center p-4 my-2">
+            <h1 className="text-justify ">Download CV/RESUME</h1>
+            <button className="border-2 w-30 h-10 rounded-lg hover:bg-black/60 bg-black text-white text-lg">
               Lihat Project
             </button>
-            <nav className="flex gap-1 pt-2  ">
+            <nav className="flex gap-1 pt-2">
               <button
                 href=""
-                className="w-33 flex flex-row hover:bg-white hover:text-black bg-black text-white items-center justify-center rounded-lg border-2"
+                className="w-35 h-13 px-2 md:w-auto flex flex-row hover:bg-white hover:text-black bg-black text-white items-center justify-center rounded-lg border-2"
               >
                 Download CV <IoMdDownload className="text-2xl " />
               </button>
               <button
                 href=""
-                className="w-42 flex flex-row hover:bg-white hover:text-black bg-black text-white items-center justify-center rounded-lg border-2"
+                className="w-44 flex flex-row   md:w-auto hover:bg-white hover:text-black bg-black text-white items-center justify-center rounded-lg border-2"
               >
                 Download RESUME <IoMdDownload className="text-2xl " />
               </button>

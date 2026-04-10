@@ -1,13 +1,34 @@
+import ImgKuliah from "../../../assets/kuliah.png";
 export default function PropsProject() {
   return (
     <>
       <main className="bg-[#D9CFC7] ">
         <h1 className="text-2xl text-center">Project</h1>
         <section className="grid md:grid-cols-2 grid-cols-1 gap-4 pt-5 bg-[#F9F8F6] ">
-          <Project nama="Nama Project" tahun="2020-Sekarang" isi="isinya" />
-          <Project nama="Nama Project" tahun="2020" isi="isinya" />
-          <Project nama="Nama Project" tahun="2020" isi="isinya" />
-          <Project nama="Nama Project" tahun="2020" isi="isinya" />
+          <Project
+            nama="Nama Project"
+            tahun="2020"
+            isi="isinya"
+            img={ImgKuliah}
+          />
+          <Project
+            nama="Nama Project"
+            tahun="2020"
+            isi="isinya"
+            img={ImgKuliah}
+          />
+          <Project
+            nama="Nama Project"
+            tahun="2020"
+            isi="isinya"
+            img={ImgKuliah}
+          />
+          <Project
+            nama="Nama Project"
+            tahun="2020"
+            isi="isinya"
+            img={ImgKuliah}
+          />
         </section>
       </main>
     </>
@@ -24,7 +45,7 @@ export function Project(props) {
         <aside className=" flex justify-center">
           <img
             className="flex items-center justify-center "
-            src="/KULIAH.png"
+            src={props.img}
             alt=""
           />
         </aside>

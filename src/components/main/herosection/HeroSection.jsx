@@ -1,6 +1,7 @@
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaInstagram } from "react-icons/fa6";
 import { SiGmail } from "react-icons/si";
+import img from "../../../assets/foto_diri.jpg";
 export default function HeroSection() {
   return (
     <>
@@ -24,7 +25,7 @@ export default function HeroSection() {
         <aside className=" md:w-1/2 flex justify-center items-center">
           <img
             className="rounded-full md:w-100 md:h-100 w-75 h-75"
-            src="/1.Foto_Profil.jpg"
+            src={img}
             alt="HeroSection"
           />
         </aside>
